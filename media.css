@@ -269,12 +269,13 @@
 
         ul li a {
         font-size: 15px;
-        margin-left: -20px;
+        
         }
 
         #logo {
-            
+            margin-left: -10px;
             font-size: 15px;
+            margin-top: 0px;
         }
     }
 
