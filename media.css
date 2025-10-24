@@ -268,10 +268,7 @@
         
 
         ul li a {
-         float: right;    
-         margin-top: 15px;
         font-size: 10px;
-        margin-left: -20px;
         }
 
         #logo {
@@ -292,7 +289,7 @@
             border-radius: 50%;
             position: auto;
             text-align: center;
-            margin-left: -10px;
+            margin-left: -50px;
         }
     }
 
@@ -302,23 +299,23 @@
  
 
         li:nth-child(1) {
-            font-size: 15px;
+            font-size: 10px;
             margin-bottom: 20vh;
             text-align: center;
-            margin-left: -10px;
+            margin-left: -50px;
         }
 
         li:nth-child(2) {
-            font-size: 15px;
+            font-size: 10px;
             text-align: center;
-            margin-left: -10px;
+            margin-left: -50px;
             margin-bottom: 20vh;
         }
 
         li:nth-child(3) {
-            font-size: 15px;
+            font-size:10px;
             text-align: center;
-            margin-left: -10px;
+            margin-left: -50px;
         
     }
 }
@@ -335,15 +332,14 @@
         flex-direction: column;
         margin-top: -10vh;
         font-weight: bold;
-        margin-left: 40px;
+        margin-left: -50px;
         text-align: center;
     }
 
     li:nth-child(1) {
-        font-size: 15px;
+        font-size: 10px;
         
         
     }
 }
 }
-
