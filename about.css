@@ -7,7 +7,18 @@ body {
   overflow: hidden;
 }
 
+       body{
+        background: linear-gradient(-45deg, #e17c0f, #3f354d, #0fe127, #ef25a1);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+        height: 100vh;
+}
 
+        @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+}
 
 .grid-container {
   display: grid;
@@ -106,7 +117,7 @@ body {
 
 .text-section li:nth-child(2) {
   font-size: 40px;
-   margin-left: 450px;
+   margin-left: 550px;
   text-align: center;
   font-weight: bold;
   margin-top: 40px;
@@ -575,7 +586,7 @@ body {
 
         #logo {
             
-            font-size: 20px;
+            font-size: 25px;
             
             
         }
@@ -649,7 +660,7 @@ body {
 
         #logo {
             
-            font-size: 20px;
+            font-size: 25px;
             
             
         }
